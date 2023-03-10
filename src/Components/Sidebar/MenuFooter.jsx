@@ -3,8 +3,8 @@ import React from 'react'
 const MenuFooter = () => {
     return (
         <div>
-            {/* <div className="bottom flex flex-col absolute px-8 items-start">
-                <h6>Need Help?</h6>
+            <div className="bottom mt-6 mx-[40px] flex flex-col items-start">
+                <h6 className="">Need Help?</h6>
                 <p className="flex py-2">
                     <a className="flex hover:underline" href="/">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-2 w-6 h-6">
@@ -13,7 +13,7 @@ const MenuFooter = () => {
                         Help desk
                     </a>
                 </p>
-            </div> */}
+            </div>
         </div>
     )
 }

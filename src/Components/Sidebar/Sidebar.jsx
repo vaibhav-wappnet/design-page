@@ -7,12 +7,13 @@ import Logo from '../../Assets/Logo.png'
 
 const Sidebar = () => {
     return (
-        <div>
-            <div className="sidebar scrollbar-thin scrollbar-thumb-blue-600 fixed top-0 min-h-screen overflow-y-auto w-[308px] bg-white">
+        <div className="flex flex-col">
+
+            <div className="flex fixed flex-col scrollbar-thin top-0 scrollbar-thumb-blue-600 h-[1080px] overflow-y-auto bg-white">
 
                 {/* Logo */}
-                <div className="logo h-[95px] w-[269px] top-0 right-[15px]">
-                    <img className=" absolute w-[202.37px] top-[47px] left-[40px] h-[35px]" src={Logo} alt="" />
+                <div className="logo flex flex-col justify-center mx-auto h-[90px] w-[200px]">
+                    <img className=" h-[35px]" src={Logo} alt="" />
                 </div>
 
                 {/* Create Button */}
@@ -24,7 +25,7 @@ const Sidebar = () => {
                 {/* Footer Menu item */}
                 <MenuFooter />
             </div>
-        </div >
+        </div>
     )
 }
 
