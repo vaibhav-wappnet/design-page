@@ -3,12 +3,12 @@ import User from "../../Assets/user.jpg";
 
 const Header = () => {
     return (
-        <div>
-            <div className="header flex flex-row w-[70%] justify-between top-[44px] mx-96 absolute text-3xl ">
+        <div className="flex flex-col">
+            <div className="header flex flex-row justify-between text-3xl mt-4">
                 <div className="title flex items-center">
                     <h1>My Profile</h1>
                 </div>
-                <div className="flex">
+                <div className="flex flex-row">
                     <div className="flex">
                         <button className="mx-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -34,13 +34,13 @@ const Header = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className="side-profile ml-8 flex">
+                    <div className="side-profile flex">
                         <div className="profile-title flex px-2 items-center">
                             <img src={User} className="h-[64px] rounded-full" alt="" />
                         </div>
                         <div className="profile-text flex flex-col">
                             <h1>Berkay Erdinc</h1>
-                            <p className="bg-green-500 rounded-lg w-[62px] leading-5 text-[11px]">Assistant</p>
+                            <p className="bg-green-600 rounded-lg w-[62px] leading-5 text-white text-[11px]">Assistant</p>
                         </div>
                         <div className="down-arrow flex mx-5">
                             <button>
