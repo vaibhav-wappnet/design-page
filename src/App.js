@@ -5,10 +5,10 @@ import MainLayout from './Components/Main/MainLayout';
 
 function App() {
   return (
-    <div className="App flex flex-row">
+    <div className="App bg-slate-200">
       <Sidebar />
 
-      <div className="flex flex-col w-full px-4 ml-[268px]">
+      <div className="flex flex-col ">
         <Header />
         <MainLayout />
       </div>
