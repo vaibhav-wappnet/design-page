@@ -1,6 +1,5 @@
 import React from "react";
 import * as AiIcons from "react-icons/ai"
-import * as AIcons from "react-icons/ai"
 
 
 const TableData = [
@@ -8,9 +7,9 @@ const TableData = [
         id: 1,
         input: "Invoice #0034 - Jun 2022",
         billingDate: "24 Jun,2022",
-        className: "flex items-center justify-center border-b my-4 h-8 rounded-lg bg-orange-300 text-orange-600 text-xs",
+        className: "flex items-center justify-evenly my-2 h-6 rounded-md bg-orange-200 text-orange-600 sm:text-sm text-[8px]",
         icon: <AiIcons.AiOutlineFieldTime />,
-        status: "Peniding",
+        status: "Pending",
         amount: "$99.99",
         plan: "Basic - 1 License"
     },
@@ -18,7 +17,7 @@ const TableData = [
         id: 2,
         input: "Invoice #0034 - Jun 2022",
         billingDate: "24 Jun,2022",
-        className: "flex items-center justify-center my-4 h-8 rounded-lg bg-red-300 text-red-600 text-xs",
+        className: "flex items-center justify-evenly my-2 h-6 rounded-md bg-red-200 text-red-600 sm:text-sm text-[8px]",
         icon: <AiIcons.AiOutlineInfoCircle />,
         status: "Paid",
         amount: "$99.99",
@@ -28,7 +27,7 @@ const TableData = [
         id: 3,
         input: "Invoice #0034 - Jun 2022",
         billingDate: "24 Jun,2022",
-        className: "flex items-center justify-center my-4 h-8 rounded-lg bg-green-300 text-green-600 text-xs",
+        className: "flex items-center justify-evenly my-2 h-6 rounded-md bg-green-200 text-green-600 sm:text-sm text-[8px]",
         icon: <AiIcons.AiOutlineCheckCircle />,
         status: "Paid",
         amount: "$99.99",
@@ -38,7 +37,7 @@ const TableData = [
         id: 4,
         input: "Invoice #0034 - Jun 2022",
         billingDate: "24 Jun,2022",
-        className: "flex items-center justify-center my-4 h-8 rounded-lg bg-green-300 text-green-600 text-xs",
+        className: "flex items-center justify-evenly my-2 h-6 rounded-md bg-green-200 text-green-600 sm:text-sm text-[8px]",
         icon: <AiIcons.AiOutlineCheckCircle />,
         status: "Paid",
         amount: "$99.99",
@@ -48,7 +47,7 @@ const TableData = [
         id: 5,
         input: "Invoice #0034 - Jun 2022",
         billingDate: "24 Jun,2022",
-        className: "flex items-center justify-center my-4 h-8 rounded-lg bg-green-300 text-green-600 text-xs",
+        className: "flex items-center justify-evenly my-2 h-6 rounded-md bg-green-200 text-green-600 sm:text-sm text-[8px]",
         icon: <AiIcons.AiOutlineCheckCircle />,
         status: "Paid",
         amount: "$99.99",

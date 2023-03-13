@@ -4,7 +4,7 @@ import * as GoIcons from 'react-icons/go'
 
 const PaymentMethod = () => {
     return (
-        <div className="payment-method flex flex-col mx-2 p-4 h-[200px] w-[250px] bg-white mt-9 rounded-lg">
+        <div className="payment-method flex flex-col p-4 h-[200px] w-[250px] bg-white mt-9 rounded-lg">
             <div className="title flex flex-col items-start">
                 <h1 className="text-md font-semibold">Payment Method</h1>
                 <p className="text-xs">Change or edit your payment method</p>
