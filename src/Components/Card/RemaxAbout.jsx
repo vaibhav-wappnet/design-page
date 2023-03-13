@@ -1,17 +1,18 @@
 import React from 'react'
-import Logo from "../../Assets/Logo.png"
 
 const RemaxAbout = () => {
     return (
-        <div className=" flex flex-col justify-center items-center h-[300px] w-[300px] rounded-lg bg-white">
-            <div className="image h-[24px] w-[129px]">
-                <img src={Logo} alt="" />
+        <div className=" flex flex-col justify-center items-center sm:h-[300px] sm:w-[300px] h-[280px] w-[250px] rounded-lg bg-white">
+            <div className="text-3xl sm:text-4xl font-extrabold text-red-600">
+                <h1>
+                    RE<span className="text-blue-800">/</span>MAX
+                </h1>
             </div>
-            <div className="card-body text">
-                <p>Brokerage</p>
-                <h1>RE/MAX Hallmark</h1>
+            <div className="card-body mt-4 w-full">
+                <p className="text-sm sm:text-lg my-2">Brokerage</p>
+                <h1 className="font-bold">RE/MAX Hallmark</h1>
             </div>
-            <div className="card-footer flex flex-col mt-8 px-4 items-center">
+            <div className="card-footer flex flex-col mt-8 px-4 text-slate-600 items-center">
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 items-center">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />

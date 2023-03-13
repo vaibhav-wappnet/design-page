@@ -10,7 +10,7 @@ import BillingTable from '../BillingDetails/BillingTable';
 
 
 const MainLayout = () => (
-    <div className="flex flex-col sm:flex-row mt-9 items-center justify-center">
+    <div className="flex flex-col sm:flex-row mt-4 items-center justify-center">
 
         {/* COL-1 */}
         <div className="flex flex-col sm:flex-row-reverse justify-center">
@@ -20,7 +20,7 @@ const MainLayout = () => (
                 {/* Profile container */}
                 <ProfileCard />
 
-                <div className="flex flex-col sm:flex-row items-center justify-between">
+                <div className="flex flex-col sm:flex-row w-full items-center justify-around">
                     {/* Payment Method */}
                     <PaymentMethod />
 
@@ -30,7 +30,7 @@ const MainLayout = () => (
 
                 <BillingTable />
             </div>
-            <div className="flex flex-col my-5 sm:mx-5 items-center">
+            <div className="flex flex-col mb-4 sm:mx-8 items-center">
                 {/* Profile Row */}
                 <ProfileComplete />
                 {/* Profile Shortcuts */}
@@ -41,9 +41,11 @@ const MainLayout = () => (
 
 
         {/* COL-3 */}
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-4 items-center sm:mx-8">
             {/* Remax */}
             <RemaxAbout />
+
+            {/* Notification */}
             <Notification />
         </div>
     </div>
